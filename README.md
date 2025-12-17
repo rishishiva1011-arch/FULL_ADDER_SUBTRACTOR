@@ -96,7 +96,6 @@ endmodule
 Developed by: Rishikesh S 
 
 RegisterNumber: 25005617
-*/
 
 **RTL Schematic**
 

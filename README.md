@@ -38,6 +38,15 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+
+FULL ADDER
+<img width="368" height="339" alt="EX 4 TABLE 1" src="https://github.com/user-attachments/assets/fb45ece1-0555-4662-9691-62070f2e4f5d" />
+
+
+FULL SUBRACTOR
+<img width="357" height="337" alt="EX 4 TABLE 2" src="https://github.com/user-attachments/assets/b8fbd33a-30bf-4065-87e3-19d985e1d1c7" />
+
+
 **Procedure**
 
 Write the detailed procedure here
@@ -49,7 +58,24 @@ Write the detailed procedure here
 
 **RTL Schematic**
 
+FULL ADDER
+<img width="890" height="512" alt="EX 4 LOGIC 1" src="https://github.com/user-attachments/assets/cba600f5-a05f-4f9f-a399-99914dad6638" />
+
+
+FULL SUBRACTOR
+<img width="891" height="513" alt="EX 4 LOGIC 2" src="https://github.com/user-attachments/assets/9d0d9a7f-945c-43cc-8b6c-b6110dc2bced" />
+
+
+
 **Output Timing Waveform**
+
+FULL ADDER
+<img width="960" height="551" alt="EX 4 WAVE 1" src="https://github.com/user-attachments/assets/bb2e9cfd-6f8a-46f1-92a6-c74373747257" />
+
+
+FULL SUBRACTOR
+<img width="960" height="512" alt="EX 4 WAVE 2" src="https://github.com/user-attachments/assets/1c5f8f19-953c-4707-90de-27a00eb57b42" />
+
 
 **Result:**
 

@@ -38,18 +38,45 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+FULL ADDER
+<img width="368" height="339" alt="EX 4 TABLE 1" src="https://github.com/user-attachments/assets/9837caab-e425-435c-b965-08386fb4c7c8" />
+
+
+FULL SUBRACTOR
+<img width="357" height="337" alt="EX 4 TABLE 2" src="https://github.com/user-attachments/assets/4d279501-80b3-4b8b-b084-2a8194e216cc" />
+
+
 **Procedure**
 
 Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+
+Developed by: Rishikesh S 
+RegisterNumber: 25005617
 */
 
 **RTL Schematic**
 
+FULL ADDER
+<img width="890" height="512" alt="EX 4 LOGIC 1" src="https://github.com/user-attachments/assets/94c398d5-b18e-42f6-a4b3-2b62310465f9" />
+
+
+FULL SUBRACTOR
+<img width="891" height="513" alt="EX 4 LOGIC 2" src="https://github.com/user-attachments/assets/07e02671-0b60-47af-96d9-037eaf77e9e5" />
+
+
 **Output Timing Waveform**
+
+FULL ADDER
+<img width="960" height="551" alt="EX 4 WAVE 1" src="https://github.com/user-attachments/assets/68512036-bbb4-49f5-8681-c5eac475e6d8" />
+
+
+FULL SUBRACTOR
+<img width="960" height="512" alt="EX 4 WAVE 2" src="https://github.com/user-attachments/assets/8c68ee90-84d5-40d1-b738-13baeb91f99e" />
+
 
 **Result:**
 

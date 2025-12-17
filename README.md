@@ -38,18 +38,61 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+FULL ADDER
+<img width="890" height="512" alt="EX 4 LOGIC 1" src="https://github.com/user-attachments/assets/953fb562-d9e5-477f-9cfd-0660d354d14d" />
+
+FULL SUBRACTOR
+<img width="891" height="513" alt="EX 4 LOGIC 2" src="https://github.com/user-attachments/assets/35ca3ae2-ca5b-4ff7-a17a-206b9f7a9412" />
+
+
 **Procedure**
 
 Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+FULL ADDER
+module fa(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=( (a ^ b)^cin);
+assign carry= ( (a & b)| ( cin &(a ^ b )));
+endmodule
+
+FULL SUBTRACTOR
+module fs(a,b,bin,difference,borrow);
+input a,b,bin;
+output difference,borrow;
+assign difference= ( (a ^ b)^bin);
+assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
+endmodule
+
+
+Developed by:Rishikesh S
+RegisterNumber:25005617
 */
 
 **RTL Schematic**
 
+FULL ADDER
+<img width="890" height="512" alt="EX 4 LOGIC 1" src="https://github.com/user-attachments/assets/1ef63499-e437-4063-a346-bd2c07ac3c86" />
+
+
+FULL SUBRACTOR
+<img width="891" height="513" alt="EX 4 LOGIC 2" src="https://github.com/user-attachments/assets/2c9b12a6-97ee-4500-bd5a-96188898ff34" />
+
+
 **Output Timing Waveform**
+
+FULL ADDER
+<img width="960" height="551" alt="EX 4 WAVE 1" src="https://github.com/user-attachments/assets/7b84afc8-555c-4fc1-a46e-f8055f2809fa" />
+
+
+FULL SUBRACTOR
+<img width="960" height="512" alt="EX 4 WAVE 2" src="https://github.com/user-attachments/assets/e3e10e21-4fcb-444f-bd8b-e3a07e2690ab" />
+
+
 
 **Result:**
 
